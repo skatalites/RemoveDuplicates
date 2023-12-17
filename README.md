@@ -1,17 +1,17 @@
 # Test task:
 
-## User story 1 - Test task: Remove Duplicates
+## User Story 1: Test Task: Remove Duplicates.
 
-As a recluter, I want to verify the tecnical knowlede of this candidate, so that it's neccesary to complete this test task.
+As a recluter, I want to verify the technical knowledge of this candidate, so it's necessary that the candidate complete this test task.
 
-**Input:** Given a simple String AABBCCD112233.
+**Input:** Given a simple String: "AABBCCD112233".
 
-**Output:** Return a new String, that will not contain any duplicates. Example ABCD123
+**Output:** Return a new String, that will not contain any duplicates. Example "ABCD123"
 
 **Acceptance criteria:**
 
-The code should be clean, readable and optimized.
-Also, we expect to see test coverage with a different test cases.
+The code should be clean, readable, and optimized.
+Also, we expect to see test coverage with different test cases.
 
 ## **Proposed technical solution**
 
@@ -21,13 +21,13 @@ Also, we expect to see test coverage with a different test cases.
 
 Dependencies:
 
-* Lombok, helps to reduce boilerplate, and do the codo clean and consice.
-* Slf4j, helps to log in a simple way.
-* jUnit and Mockito: testing frameworks.
+* Lombok: It helps reduce boilerplate and keeps the code clean and consistent.
+* Slf4j: It helps to log in a simple way.
+* jUnit and Mockito: are good knowledge testing frameworks.
 
 **Architecture**
 
-This is a simple testing task, however, it uses a Ports and Adapters approach to architecture, defining the Domain, the Service (Business Logic), the application (Handler), and the infrastructure.
+This is a simple testing task; however, it uses a Ports and Adapters approach to architecture, defining the Domain, the Service (Business Logic), the application (Handler), and the infrastructure.
 
 It is easy to create new implementations to obtain data from other sources (repositories, APIs, etc.).
 
